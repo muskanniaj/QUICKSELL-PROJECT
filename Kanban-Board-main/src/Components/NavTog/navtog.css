@@ -1,0 +1,31 @@
+.menu > li,.menu>a{
+    display: inline-block;
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #242323;
+    display: block;
+    padding: 10px 1.5rem;
+    transition: background-color .22s ease,color .22s ease;
+}
+
+.menu a:hover{
+    background-color: #f34949;
+    color: white;
+}
+
+.submenu{
+    position: absolute;
+    background-color: #fafcfe;
+    /* width: 140px; */
+    left:0;
+}
+
+.hidden{
+    visibility: hidden;
+}
